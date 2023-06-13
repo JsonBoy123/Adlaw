@@ -1,0 +1,187 @@
+.bg-c-yellow {
+	background: #ff9061;
+	background: linear-gradient(to right bottom, #ff9061, #ffb99a);
+	
+}
+.bg-c-green {
+	background: #0ac282;
+	background: linear-gradient(to right bottom, #0ac282, #0df3a3);
+	
+}
+.bg-c-pink {
+	background: #fe5d70;
+	background: linear-gradient(to right bottom, #fe5d70, #fe909d);
+}
+.bg-c-lite {
+	background: #01a9ac;
+	background: linear-gradient(to right bottom, #01a9ac, #01dbdf);
+}
+.bg-c-blue {
+	background: #01a9ac;
+	background: linear-gradient(to right bottom, #015adf, #78b4ff);
+}
+.bg-c-sky {
+	background: #01a9ac;
+	background: linear-gradient(to right bottom, #009292, #ff8484);
+}
+.bg-c-voilet {
+	background: #6c757d;
+	background: linear-gradient(to right bottom, #6c757d, rgba(0,123,255,.25));
+}.bg-c-red {
+	background: #01a9ac;
+	background: linear-gradient(to right bottom, #009292, #ff8484);
+}.bg-c-brown {
+	background: #989696;
+	background: linear-gradient(to right bottom, #989696, #2d71d8);
+}
+.fa-icon{
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+
+.col-div-nav{
+    padding: 15px;
+    height: 90px;
+    background-color:#f7f6f6;
+    border: 0.5px solid #cecece ; 
+    
+  }
+  .col-div-nav:hover, .col-div-nav a:hover{
+    background-color:#3c8dbc; 
+    color:white;
+  }
+  .col-div-mar{
+    margin:10px 10px 0px 10px;
+  }
+  .active-li{
+    background-color:#3c8dbc; 
+    color:white;
+  }
+  .col-div-nav i{
+    font-size:18px;
+  }
+  .error{
+    color:red;
+  }
+  .info-box{
+    box-shadow: 0 1px 7px 3px rgba(0,0,0,0.10);
+  }
+  .info-box-text{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+
+  }
+
+  /* Password Chnage Page*/
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  margin-right: 7px;
+  position: relative;
+  z-index: 2;
+}
+
+/*#message Page*/
+.unread_message a,.unread_message td{
+  color:#b10e0e;
+}
+
+.unread_message a:hover{
+  color:#b10e0e!important;
+}
+
+/*Student Create Edit Page*/
+
+.wizard>.steps .done a,.wizard>.steps .done a:hover,.wizard>.steps .done a:active{background:#9dc8e2;color:#fff}
+  .tabcontrol>.steps>ul>li.current{background:#fff;border:1px solid #bbb;border-bottom:0 none;padding:0 0 1px 0;margin-top:0}
+  .tabcontrol>.steps>ul>li.current>a{padding:15px 30px 10px 30px}
+  .wizard>.steps .current a,.wizard>.steps .current a:hover,.wizard>.steps .current a:active{background:#2184be;color:#fff;cursor:default}
+  .wizard>.steps .error a,.wizard>.steps .error a:hover,.wizard>.steps .error a:active{background:#ff3111;color:#fff}
+  .wizard>.steps .current-info,.tabcontrol>.steps .current-info,.wizard>.content>.title,.tabcontrol>.content>.title{position:absolute;left:-999em}
+  .wizard>.actions{
+    width: 100%;
+  } 
+  .wizard>.actions a, .wizard>.actions a:hover, .wizard>.actions a:active{
+    background:#2184be;
+    color:#fff;
+    display:block;
+    padding:.5em 1em;
+    text-decoration:none;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    margin: 0px 10px ;
+
+  }
+  .wizard>.actions .disabled a,.wizard>.actions .disabled a:hover,.wizard>.actions .disabled a:active{background:#eee;color:#aaa}
+
+
+/*Student Show*/
+
+#tab-button {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#tab-button li {
+  display: table-cell;
+  /*width: 20%;*/
+}
+#tab-button li a {
+  display: block;
+  padding: .5em;
+  background: #eee;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+#tab-button li:not(:first-child) a {
+  border-left: none;
+}
+#tab-button li a:hover,
+#tab-button .is-active a {
+  border-bottom-color: transparent;
+  background: #fff;
+}
+
+.tab-contents {
+  padding: .5em 2em 1em;
+  border: 1px solid #ddd;
+}
+
+.tab-button-outer {
+  display: none;
+}
+
+.tab-contents {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-button-outer {
+    position: relative;
+    z-index: 2;
+    display: block;
+  }
+  .tab-select-outer {
+    display: none;
+  }
+  .tab-contents {
+    position: relative;
+    top: -1px;
+    margin-top: 0;
+  }
+}
+.slimScrollBar(){
+     background: rgb(219, 219, 219) none repeat scroll 0% 0% !important;
+    width: 9px !important;
+    opacity: 1 !important;
+}
+
